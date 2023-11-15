@@ -15,4 +15,4 @@ RUN pip install poetry && poetry install --no-root --no-directory
 COPY bot/ /code/src/
 RUN poetry install --no-dev
 
-ENTRYPOINT ["python", "/code/src/__init__.py"]
+ENTRYPOINT ["poetry","run","python", "/code/src/__init__.py"]
