@@ -9,7 +9,7 @@ from discord import ui
 from dotenv import load_dotenv
 
 load_dotenv()
-
+logging.getLogger().setLevel(level=logging.INFO)
 
 def require_env(name: str) -> str:
     value = os.environ.get(name, None)
