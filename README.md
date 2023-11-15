@@ -79,3 +79,5 @@ next set @everyones global permissions in role settings to -view channels by def
 and set your low role to allow viewing channels
 (or an alternative like not being able to send messages / can)
 
+ensure that @everyone doesnt have change nickname, so they can't bypass the format
+
